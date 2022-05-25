@@ -1,0 +1,219 @@
+:root {
+    --primary-color: #dd8f22;
+    --border-color: #e6ad5e;
+    --text-color: #4d4646;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+.btn {
+    min-width: 80px;
+    min-height: 24px;
+    text-decoration: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 2px;
+    font-size: 1.2rem;
+    padding: 0 8px;
+    outline: none;
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4rem;
+}
+
+.navbar-btn button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn.btn--around {
+    border-radius: 22px;
+}
+
+.btn.btn--around:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn.btn--around:hover span {
+    color: #fff;
+}
+
+.btn--around i {
+    font-size: .8rem;
+    margin: 1px 0 0 4px;
+}
+
+.btn--around span {
+    margin: 0 0 2px 0;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.modal.open {
+    display: flex
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__body {
+    background: url(../img/back.jpg);
+    background-position: top center;
+    background-size: cover;
+    width: 360px;
+    height: 420px;
+    background-color: rgb(230, 218, 218);
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px rgb(56, 56, 56);
+    max-width: calc(100% - 32px);
+}
+
+.auth-form__img {
+    text-align: center;
+    height: 220px;
+    line-height: 200px;
+}
+
+.auth-form__img img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.auth-form__form .auth-form__group {
+    max-width: 100%;
+    margin: 0 0 15px 0;
+    padding: 0 20px;
+}
+
+.auth-form__group input[id='mobile'] {
+    background-image: url(../img/modal_call.png);
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px 20px 6px;
+    padding-left: 48px;
+    border: 1px solid #ebd2ad;
+    border-radius: 20px;
+    outline: none;
+}
+
+.auth-form__group input[id='mobileRes'] {
+    background-image: url(../img/modal_call.png);
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px 20px 6px;
+    padding-left: 48px;
+    border: 1px solid #ebd2ad;
+    border-radius: 20px;
+    outline: none;
+}
+
+.auth-form__group input[id='aff'] {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px 20px 6px;
+    padding-left: 48px;
+    border: 1px solid #ebd2ad;
+    border-radius: 20px;
+    outline: none;
+}
+
+.auth-form__group input[id='pass'] {
+    background-image: url(../img/pass-sg.png);
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px 20px 6px;
+    padding-left: 48px;
+    border: 1px solid #ebd2ad;
+    border-radius: 20px;
+    outline: none;
+}
+
+.auth-form__button {
+    max-width: 100%;
+    margin: 0 0 15px 0;
+    padding: 0 20px;
+}
+
+.auth-form__button button {
+    width: 100%;
+    height: 37px;
+    border: 1px solid #ebd2ad;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.auth-form__button button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.auth-form__button button:hover {
+    opacity: 0.9;
+}
+
+.modal__inner button {
+    background-color: #fff;
+}
+
+.modal__inner .close {
+    position: absolute;
+    outline: none;
+    right: -30px;
+    top: -33px;
+    width: 35px;
+    height: 35px;
+    background: url(../img/close.png);
+}
+
+.modal__inner a {
+    float: right;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #333;
+    margin: -15px 20px 0 0;
+}
+

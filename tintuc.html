@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./slick-master/slick/slick.css">
+    <link rel="stylesheet" href="./slick-master/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <a href="#" class="hotline-fixed">
+        <span>(024) 320 686 55</span>
+    </a>
+    
+    <div class="app">
+        <header>
+            <div class="header">
+                <div class="navbar">
+                    <div class="navbar-img">
+                        <img src="./assets/img/logo.png" alt="" class="logo">
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Sản phẩm, Dịch vụ..." id="inputSearch">
+                        <button class="search-btn"><i class="search-icon fas fa-search"></i></button>
+                    </div>
+                    <ul class="navbar-list">
+                        <li class="navbar-list__item">
+                            <a href="./trangchu.html" class="navbar-list__item-link"><i class="fas fa-home"></i>
+                                <span>Trang chủ</span>
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="./trangchu.html" class="navbar-list__item-link"><i class="fas fa-info-circle"></i>
+                                <span>Giới thiệu</span> 
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="./sanphamdv.html" class="navbar-list__item-link"> <i class="fas fa-gift"></i>
+                                <span>Sản phẩm dịch vụ</span>  
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="#" class="navbar-list__item-link" style="color: var(--primary-color);"><i class="fas fa-volume-up"></i>
+                                <span>Tin tức</span> 
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="./lienhe.html" class="navbar-list__item-link"><i class="far fa-envelope"></i>
+                                <span>Liên hệ</span> 
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar-user">
+                        <i class="i-user fas fa-user-circle"></i>
+                        <span>User name</span>
+                        <i class="i-arrow fas fa-chevron-down"></i>
+                        <ul class="nvavbar-user__child">
+                            <li><a href="#">Tài khoản của tôi</a></li>
+                            <li>Đăng xuất</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="product-detail container">
+            <div class="container">
+                <div class="container">
+                    <div class="bar-top">
+                        <div class="bar-top__link container">
+                            <a href="./trangchu.html">Trang chủ</a>
+                            <p> > </p>
+                            <p>Tin tức</p>
+                        </div>
+                    </div>
+                    <h2 class="heading container">Tin tức</h2>
+                    <div class="news">
+                        <div class="container"> 
+                            <div class="content__product" id="product" style="float: left;">                               
+                                <div class="content__product__item">
+                                    <a href="">
+                                        <img src="https://nld.mediacdn.vn/thumb_w/540/2019/12/18/photo-3-1576655764752750978133.jpg" alt="">
+                                    </a>     
+                                    <a href="">
+                                        <h3>Cẩm nang ngăn ngừa lão hóa từ dưỡng da đến trang điểm</h3>
+                                        <p>10/08/2021</p>
+                                    </a>                                                             
+                                </div>                               
+                            </div>                            
+                        </div>                                                 
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content__paging">
+                <ul>
+                    <li class="btn-prev btn-active fas fa-chevron-left"></li>
+                    <div class="number-page d-flex" id="number-page">
+                        <!-- <li class="active">
+                            <a>1</a>
+                        </li>
+                        <li>
+                            <a>2</a>
+                        </li>
+                        <li>
+                            <a>3</a>
+                        </li>                                        -->
+                    </div>
+                    <li class="btn-next btn-active fas fa-chevron-right"></li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="slide-banner">           
+            <ul class=" container">                    
+                <li>
+                    <a href="#">
+                        <img class="img-fluid" src="./assets/img/sl_1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_2.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_3.webp" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_4.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_5.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_6.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_7.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content container">
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Công ty CP công nghệ mới <br> Leskin Việt Nam</span>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-info d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p style="margin-left: 3px;">Số 1 LK 11A, KĐT Mỗ Lao, Hà Đông, Hà Nội</p>
+                        </div>
+                        <div class="contact-info d-flex">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>024 320 686 55</p>
+                        </div>
+                        <div class="contact-info d-flex">
+                            <i class="far fa-envelope"></i>
+                            <p>info@leskin.com.vn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Về Leskin</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#">Sứ mệnh</a>
+                        </li>
+                        <li>
+                            <a href="#">Tăng trưởng</a>
+                        </li>
+                        <li>
+                            <a href="#">Quan hệ cổ đông</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Chính sách & điều khoản</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Chính sách sử dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách thành viên</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Kết nối Leskin</span>
+                    </div>
+                    <div class="social d-flex">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="download d-flex">
+                        <a href="">
+                            <img class="img-fluid" src="./assets/img/app-android.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="img-fluid" src="./assets/img/app-ios.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>© 2021 Copyright Leskin.com.vn. All rights reserved.</p>
+            </div>           
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./slick-master/slick/slick.js"></script>
+<script src="./index.js"></script>
+<script src="sanphamdv.js"></script>
+<script src="./JS/tintuc.js"></script>
+
+</body>
+</html>

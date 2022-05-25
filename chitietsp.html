@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./slick-master/slick/slick.css">
+    <link rel="stylesheet" href="./slick-master/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <a href="#" class="hotline-fixed">
+        <span>(024) 320 686 55</span>
+    </a>
+    
+    <div class="app">
+        <header>
+            <div class="header">
+                <div class="navbar">
+                    <div class="navbar-img">
+                        <img src="./assets/img/logo.png" alt="" class="logo">
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Sản phẩm, Dịch vụ..." id="inputSearch">
+                        <button class="search-btn"><i class="search-icon fas fa-search"></i></button>
+                    </div>
+                    <ul class="navbar-list">
+                        <li class="navbar-list__item">
+                            <a href="./trangchu.html" class="navbar-list__item-link" style="color: var(--text-color);"><i class="fas fa-home"></i>
+                                <span>Trang chủ</span>
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="/" class="navbar-list__item-link"><i class="fas fa-info-circle"></i>
+                                <span>Giới thiệu</span> 
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="./sanphamdv.html" class="navbar-list__item-link" style="color: var(--primary-color);"> <i class="fas fa-gift"></i>
+                                <span>Sản phẩm dịch vụ</span>  
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="./tintuc.html" class="navbar-list__item-link"><i class="fas fa-volume-up"></i>
+                                <span>Tin tức</span> 
+                            </a>
+                        </li>
+                        <li class="navbar-list__item">
+                            <a href="./lienhe.html" class="navbar-list__item-link"><i class="far fa-envelope"></i>
+                                <span>Liên hệ</span> 
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar-user">
+                        <i class="i-user fas fa-user-circle"></i>
+                        <span>User name</span>
+                        <i class="i-arrow fas fa-chevron-down"></i>
+                        <ul class="nvavbar-user__child">
+                            <li><a href="#">Tài khoản của tôi</a></li>
+                            <li>Đăng xuất</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="product-detail">
+            <div class="container">
+                <div class="bar-top">
+                    <div class="bar-top__link container">
+                        <a href="./trangchu.html">Trang chủ</a>
+                        <p> > </p>
+                        <a href="/sanphamdv.html">Sản phẩm</a>
+                        <p> > </p>
+                        <p>Chi tiết</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="top container">
+                        <div class="top-detail row">
+                            <div class="left col-6 p-3">
+                                <img src="./assets/img/detail.jpg" alt="">
+                            </div>
+                            <div class="right col-6 p-3">
+                                <h3 class="title">Trị mụn mỹ phẩm Maystar - Tây Ban Nha <br> Cam kết hiệu quả tại Nuci Spa & Academy</h3>                               
+                                <span class="price">600.000đ</span>
+                                <ul>
+                                    <li>Liệu trình 10-15 buổi. Sau 10 buổi sạch 99% mụn.</li>
+                                    <li>Điều trị mụn bằng tinh chất Acnegen</li>
+                                    <li>Đắp mặt nạ thải độc và kháng viêm</li>
+                                </ul>
+                                <div class="time">
+                                    <i class="far fa-calendar-alt"></i>
+                                    <p>Thời gian:</p>
+                                    <span><b>25/07/2021-10/08/2021</b></span>
+                                </div>
+                                <div class="quantity">
+                                    <span>Số lượng: </span>                        
+                                    <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">                
+                                    <button class="btn btn--primary">
+                                        <span style="margin-bottom: 3px;">Nhận ngay</span>
+                                        <i class="far fa-arrow-alt-circle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mid container d-flex">
+                        <div class="content col-9">
+                            <div class="content_heading">
+                                <ul>
+                                    <li><a href="#">Thông tin chi tiết</a></li>
+                                    <li><a href="#">Đánh giá</a></li>
+                                </ul>
+                            </div>
+                            <div class="content-body">
+                                <div class="justify">
+                                    <p>
+                                        Mystar Cosmetica là công ty có trụ sở và nhà máy sản xuất lại Tây Ban Nha, chuyên sản xuất và cung cấp
+                                        các sản phẩm mỹ phẩm cho các chuyên gia. Với kinh nghiệm trong lĩnh vực này, Maysta Cosmetica đã thiết 
+                                        lập tiêu chuẩn quốc gia và quốc tế về chất lượng của toàn bộ các sản phẩm của mình. Maystar Cosmetica 
+                                        được biết đến như một thương hiệu mỹ phẩm gắn liền với những nghiên cứu khoa học bằng hàng loạt phát 
+                                        minh độc quyền trong lĩnh vực làm đẹp. Maystar đã trở thành thương hiệu dành riêng cho các bệnh viện da
+                                        liễu, thẩm mỹ viện và spa.
+                                    </p>
+                                    <p>
+                                        Cuộc hành trình của dược mỹ phẩm Maystar Cosmetica - Tây Ban Nha được hình thành từ năm 1984 do Tiến sĩ - 
+                                        Bác sĩ Jesus Bona Sole nghiên cứu và sáng lập. Thấu hiểu những khía cạnh của việc chăm sóc và làm đẹp, 
+                                        Maystar Cosmetica đã trở thành một nhà cung cấp CGMB(Tiêu chuẩn quốc tế) và không ngừng nghiên cứu nguyên
+                                        liệu để phát triển dòng sản phẩm mang lại hiệu quả cao mà không gây bất kỳ tác dụng phụ nào. Với những công
+                                        nghệ mang tính thời thượng của Trung tâm nghiên cứu khoa học và da liễu, Maystar đã cho ra đời các sản phẩm
+                                        sử dụng những thành phần tinh túy.             
+                                    </p>
+                                    <img src="./assets/img/sp_1.png" alt="">
+                                    <p>
+                                        Thương hiệu Maystar được tín nhiệm và có mặt trên toàn thế giới như: Châu Âu, Trung Đông, Châu Á, Bắc Phi,
+                                        Bắc Mỹ. Tất cả các sản phẩm Maystar đều được cấp chứng chỉ an toàn: không chứa các chất bảo quản, không chứa 
+                                        dầu khoáng, không chứa các hương liệu tổng hợp, đảm bảo chất lượng về chứng nhận Oganic trên toàn thế giới.
+                                    </p>
+                                    <h5>Quy trình dịch vụ</h5>
+                                    <ul>
+                                        <li>Bước 1: Tẩy trang</li>
+                                        <li>Bước 2: Rửa mặt</li>
+                                        <li>Bước 3: Tẩy da chết</li>
+                                        <li>Bước 4: Hút dầu</li>
+                                        <li>Bước 5: Xông hơi, nặn mụn</li>
+                                        <li>Bước 6: Điều trị mụn bằng tinh chất Acnegen</li>
+                                        <li>Bước 7: Đắp mặt nạ thải độc và kháng viêm</li>
+                                        <li>Bước 8: Thoa kem chống nắng</li>
+                                    </ul>
+                                    <p>
+                                        Với phương châm vì quyền lợi khách hàng luôn đặt lên hàng đầu, Nuci spa & Academy sử dụng các công nghệ hiện 
+                                        đại và tiên tiến kết hợp các dòng sản phẩm sinh học nổi tiếng (Blo-cosmetic), dược mỹ phẩm (Cosmeceutical), 
+                                        sẽ giúp bạn lấy lại vẻ đẹp của bạn một cách nhanh chóng và an toàn. Đội ngũ chuyên viên, kỹ thuật viên có 
+                                        chuyên môn, tay nghề giỏi luôn mang đến cho khác hàng những dịch vụ hoàn hảo. 
+                                    </p>
+                                </div><br><br>
+                                <hr>
+                                <div class="comment">
+                                    <h4>Bình luận facebook</h4>
+                                    <div class="total-cmt d-flex">
+                                        <span>0 bình luận</span>
+                                        <div class="sort-cmt">
+                                            <label for="">Sắp xếp theo</label>
+                                            <select name="" id="">
+                                                <option value="">Mới nhất</option>
+                                                <option value="">Phù hợp nhất</option>
+                                                <option value="">Tất cả bình luận</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="user-cmt d-flex">
+                                <img src="./assets/img/user.jpg" alt="ảnh người dùng" >
+                                <input class="img-fluid" type="text" placeholder="Thêm bình luận...">
+                            </div><br>
+                            <hr>
+                            <div class="plugin">
+                                <a href="">
+                                    <i class="fab fa-facebook-square"></i>
+                                    Plugin bình luận trên Facebook
+                                </a>
+                            </div>
+                        </div>
+                        <div class="aside col-3">
+                            <div class="address">
+                                <div class="head d-flex">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <h4>Địa điểm sử dụng</h4>
+                                </div>
+                                <ul>
+                                    <li>Số 26 ngõ Huế, quận Hai Bà Trưng, Hà Nội, Việt Nam</li>
+                                    <li>
+                                        <span>Hotline:</span>
+                                        <span>0906239669</span>
+                                    </li>
+                                </ul>                               
+                            </div>
+                            <h4 class="outstanding">Nổi bật</h4>
+                            <div class="row">
+                                <div class="list-service">
+                                    <ul>
+                                        <!-- <li class="col-3">
+                                            <a href="#" class="service-item">
+                                                <div class="service-avt">
+                                                    <img class="img-fluid" src="./assets/img/sp_5.jpg" alt="">
+                                                </div>
+                                                <div class="service-desc">
+                                                    <h3 class="name">La Roche - Posay</h3>
+                                                    <button class="btn btn--around">Xem thêm</button>  
+                                                </div>
+                                            </a>
+                                        </li> -->
+                                        
+                                    </ul>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="main-bottom">
+                        <h3 class="diff-service">Sản phẩm dịch vụ khác</h3>
+                        <div class="list-service">
+                            <ul class="d-flex">
+                                <!-- <li>
+                                    <a href="#" class="service-item">
+                                        <div class="service-avt">
+                                            <img class="img-fluid" src="./assets/img/sp_5.jpg" alt="">
+                                        </div>
+                                        <div class="service-desc">
+                                            <h3 class="name">La Roche - Posay</h3>
+                                            <button class="btn btn--around">Xem thêm</button>  
+                                        </div>
+                                    </a>
+                                </li> -->                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide-banner">           
+            <ul class=" container">                    
+                <li>
+                    <a href="#">
+                        <img class="img-fluid" src="./assets/img/sl_1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_2.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_3.webp" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_4.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_5.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_6.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="img-fluid" src="./assets/img/sl_7.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div class="footer-content container">
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Công ty CP công nghệ mới <br> Leskin Việt Nam</span>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-info d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p style="margin-left: 3px;">Số 1 LK 11A, KĐT Mỗ Lao, Hà Đông, Hà Nội</p>
+                        </div>
+                        <div class="contact-info d-flex">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>024 320 686 55</p>
+                        </div>
+                        <div class="contact-info d-flex">
+                            <i class="far fa-envelope"></i>
+                            <p>info@leskin.com.vn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Về Leskin</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#">Sứ mệnh</a>
+                        </li>
+                        <li>
+                            <a href="#">Tăng trưởng</a>
+                        </li>
+                        <li>
+                            <a href="#">Quan hệ cổ đông</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Chính sách & điều khoản</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">Chính sách sử dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách thành viên</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách mua hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-title">
+                        <span>Kết nối Leskin</span>
+                    </div>
+                    <div class="social d-flex">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="download d-flex">
+                        <a href="">
+                            <img class="img-fluid" src="./assets/img/app-android.jpg" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="img-fluid" src="./assets/img/app-ios.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p>© 2021 Copyright Leskin.com.vn. All rights reserved.</p>
+            </div>           
+        </div>      
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./slick-master/slick/slick.js"></script>
+    <script src="./JS/chitiet.js"></script>
+    <Script>
+        $(".regular").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 2
+      });
+    </Script>
+</body>
+</html>
